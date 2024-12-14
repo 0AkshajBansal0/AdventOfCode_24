@@ -1,6 +1,6 @@
 import re
 
-def process_memory_with_conditions(file_path):
+def process_memory(file_path):
     total = 0
     mul_enabled = True
 
@@ -27,5 +27,5 @@ def process_memory_with_conditions(file_path):
     return total
 
 file_path = "C:\\Users\\Akshaj Bansal\\OneDrive\\Desktop\\VS_CODE\\AdventOfCode_24\\Day3\\input.txt"
-result = process_memory_with_conditions(file_path)
+result = process_memory(file_path)
 print(result)
