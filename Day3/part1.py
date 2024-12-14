@@ -17,4 +17,4 @@ def process_memory_from_file(file_path):
 
 file_path = "C:\\Users\\Akshaj Bansal\\OneDrive\\Desktop\\VS_CODE\\AdventOfCode_24\\Day3\\input.txt"
 result = process_memory_from_file(file_path)
-print("Total Sum:", result)
+print(result)
